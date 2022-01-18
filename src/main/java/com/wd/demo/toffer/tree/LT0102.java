@@ -13,7 +13,7 @@ public class LT0102 {
 
     }
 
-    static class Solution {
+    private static class Solution {
         public List<List<Integer>> levelOrder(TreeNode root) {
             List<List<Integer>> ans = new ArrayList<>();
             Queue<TreeNode> q = new LinkedList<>();

@@ -14,7 +14,7 @@ public class Offer03 {
         System.out.println(new Solution2().findRepeatNumber(new int[]{2, 3, 1, 0, 2, 5, 3}));
     }
 
-    static class Solution {
+    private static class Solution {
         public int findRepeatNumber(int[] A) {
             HashSet<Integer> set = new HashSet<>();
             for (int num: A) {

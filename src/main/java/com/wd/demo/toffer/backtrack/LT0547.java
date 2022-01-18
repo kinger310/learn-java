@@ -13,7 +13,7 @@ public class LT0547 {
         System.out.println();
     }
 
-    static class Solution {
+    private static class Solution {
         
         public int findCircleNum(int[][] isConnected) {
             int n = isConnected.length;

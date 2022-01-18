@@ -11,7 +11,7 @@ public class LT0043 {
         System.out.println(new Solution().multiply("123", "456"));
     }
 
-    static class Solution {
+    private static class Solution {
         public String multiply(String num1, String num2) {
             if (num1.equals("0") || num2.equals("0")) {
                 return "0";

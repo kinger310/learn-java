@@ -25,7 +25,7 @@ public class Offer06 {
     }
 
     // 翻转链表：遍历写法
-    static class Solution1 {
+    private static class Solution1 {
         public int[] reversePrint(ListNode head) {
             ListNode p = head, prev = null;
             while (p != null) {
@@ -44,7 +44,7 @@ public class Offer06 {
     }
 
     // 翻转链表:递归写法
-    static class Solution2 {
+    private static class Solution2 {
         ArrayList<Integer> arrayList = new ArrayList<>();
 
         public int[] reversePrint(ListNode head) {
@@ -60,7 +60,7 @@ public class Offer06 {
     }
 
     // 辅助栈
-    static class Solution3 {
+    private static class Solution3 {
         public int[] reversePrint(ListNode head) {
             // 辅助栈
             Deque<Integer> stack = new LinkedList<>();

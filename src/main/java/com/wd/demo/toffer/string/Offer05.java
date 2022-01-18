@@ -12,7 +12,7 @@ public class Offer05 {
         System.out.println(new Solution().replaceSpace("we are haapy"));
     }
 
-    static class Solution {
+    private static class Solution {
         public String replaceSpace(String s) {
             int length = s.length();
             char[] array = new char[length * 3];

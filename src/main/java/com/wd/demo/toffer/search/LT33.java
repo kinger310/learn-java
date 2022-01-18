@@ -11,7 +11,7 @@ public class LT33 {
         System.out.println(new Solution().search(new int[]{4,5,6,7,0,1,2}, 0));
     }
 
-    static class Solution {
+    private static class Solution {
         public int search(int[] A, int target) {
             int lo = 0, hi = A.length-1;
             while (lo <= hi) {

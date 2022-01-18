@@ -12,7 +12,7 @@ public class LT0014 {
         System.out.println(new Solution().longestCommonPrefix(new String[]{"flower","flow","flight"}));
     }
 
-    static class Solution {
+    private static class Solution {
         public String longestCommonPrefix(String[] strs) {
             int n = strs.length;
             if (n == 0) return "";

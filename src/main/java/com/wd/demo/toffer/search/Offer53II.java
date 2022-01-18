@@ -10,7 +10,7 @@ public class Offer53II {
         System.out.println(new Solution().missingNumber(new int[]{0,1,2,3,4,5,6,7,9}));
     }
 
-    static class Solution {
+    private static class Solution {
         public int missingNumber(int[] A) {
             int lo = 0, hi = A.length;
             while (lo < hi) {

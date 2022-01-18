@@ -3,6 +3,7 @@ package com.wd.demo.toffer.dp;
 import java.util.Arrays;
 
 /**
+ * 接雨水
  * @Author: wangdi
  * @Date: 2022/1/17 23:34
  */
@@ -11,7 +12,7 @@ public class LT0042 {
         System.out.println(new Solution().trap(new int[]{0,1,0,2,1,0,1,3,2,1,2,1}));
     }
 
-    static class Solution {
+    private static class Solution {
         public int trap(int[] height) {
             int n = height.length;
             int[] left = new int[n];

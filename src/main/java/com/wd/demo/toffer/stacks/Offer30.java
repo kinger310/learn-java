@@ -10,42 +10,42 @@ import java.util.LinkedList;
  * @Author: wangdi
  * @Date: 2022/1/9 15:19
  */
-class MinStack {
-    Deque<Integer> stack;
-    Deque<Integer> minStack;
-
-    /** initialize your data structure here. */
-    public MinStack() {
-        stack = new LinkedList<>();
-        minStack = new LinkedList<>();
-
-    }
-
-    public void push(int x) {
-        stack.add(x);
-        if (minStack.isEmpty()) {
-            minStack.add(x);
-        } else {
-            minStack.add(Math.min(minStack.getLast(), x));
-        }
-    }
-
-    public void pop() {
-        stack.pollLast();
-        minStack.pollLast();
-    }
-
-    public int top() {
-        return stack.getLast();
-    }
-
-    public int min() {
-        return minStack.getLast();
-    }
-}
-
 public class Offer30 {
     public static void main(String[] args) {
+    }
+
+    private static class MinStack {
+        Deque<Integer> stack;
+        Deque<Integer> minStack;
+
+        /** initialize your data structure here. */
+        public MinStack() {
+            stack = new LinkedList<>();
+            minStack = new LinkedList<>();
+
+        }
+
+        public void push(int x) {
+            stack.add(x);
+            if (minStack.isEmpty()) {
+                minStack.add(x);
+            } else {
+                minStack.add(Math.min(minStack.getLast(), x));
+            }
+        }
+
+        public void pop() {
+            stack.pollLast();
+            minStack.pollLast();
+        }
+
+        public int top() {
+            return stack.getLast();
+        }
+
+        public int min() {
+            return minStack.getLast();
+        }
     }
 }
 

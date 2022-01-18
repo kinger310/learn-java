@@ -28,7 +28,7 @@ public class Offer24 {
     }
 
     // 递归写法
-    static class Solution {
+    private static class Solution {
         public ListNode reverseList(ListNode head) {
             if (head == null || head.next == null) return head;
             ListNode p = reverseList(head.next);

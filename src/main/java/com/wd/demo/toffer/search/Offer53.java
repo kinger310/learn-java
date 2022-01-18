@@ -14,7 +14,7 @@ public class Offer53 {
         System.out.println(new Solution().search(new int[]{5,7,8,8,10}, 8));
     }
 
-    static class Solution {
+    private static class Solution {
         // 5,7,8,8,10
         public int search(int[] nums, int target) {
             int left = binarySearchRight(nums, target-1);

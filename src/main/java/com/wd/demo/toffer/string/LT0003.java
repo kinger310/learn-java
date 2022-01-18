@@ -13,7 +13,7 @@ public class LT0003 {
         System.out.println(new Solution().lengthOfLongestSubstring("pwwkew"));
     }
 
-    static class Solution {
+    private static class Solution {
         public int lengthOfLongestSubstring(String s) {
             // 滑动窗口
             int ans = 0;

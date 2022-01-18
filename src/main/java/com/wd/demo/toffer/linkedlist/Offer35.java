@@ -14,7 +14,7 @@ public class Offer35 {
 
     }
 
-    static class Solution {
+    private static class Solution {
         Map<Node, Node> visited = new HashMap<>();
 
         public Node copyRandomList(Node head) {

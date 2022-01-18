@@ -11,7 +11,7 @@ public class Offer68II {
         // System.out.println(new Solution().lowestCommonAncestor());
     }
 
-    static class Solution {
+    private static class Solution {
         public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
             if (root==null || p == root || q == root) return root;
             TreeNode left = lowestCommonAncestor(root.left, p, q);

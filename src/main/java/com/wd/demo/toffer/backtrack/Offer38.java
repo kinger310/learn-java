@@ -12,7 +12,7 @@ public class Offer38 {
     public static void main(String[] args) {
         System.out.println(Arrays.toString(new Solution().permutation("abc")));
     }
-    static class Solution {
+    private static class Solution {
         Set<String> ans;
         boolean[] visited;
         String base;

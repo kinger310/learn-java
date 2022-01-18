@@ -13,7 +13,7 @@ public class LT0567 {
 
     }
 
-    static class Solution {
+    private static class Solution {
         public boolean checkInclusion(String s1, String s2) {
             int m = s1.length(), n = s2.length();
             if (m > n) return false;

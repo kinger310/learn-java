@@ -10,7 +10,7 @@ public class Offer11 {
         System.out.println(new Solution().minArray(new int[]{3,1}));
     }
 
-    static class Solution {
+    private static class Solution {
         public int minArray(int[] A) {
             int lo = 0, hi = A.length-1;
             while (lo <= hi) {

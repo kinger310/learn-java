@@ -12,7 +12,7 @@ public class LT0071 {
         System.out.println(new Solution().simplifyPath("/a/./b/../../c/"));
     }
 
-    static class Solution {
+    private static class Solution {
         public String simplifyPath(String path) {
             String[] items = path.split("/");
             Deque<String> stack = new LinkedList<>();

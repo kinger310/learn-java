@@ -11,7 +11,7 @@ public class LT0023 {
 
     }
 
-    static class Solution {
+    private static class Solution {
         public ListNode mergeKLists(ListNode[] lists) {
             int lo = 0, hi = lists.length-1;
             return merge(lists, lo, hi);

@@ -16,7 +16,7 @@ public class Offer105 {
 
     }
 
-    static class Solution {
+    private static class Solution {
         boolean[][] visited;
         int m, n;
         int[][] d = new int[][]{{-1, 0}, {1, 0}, {0, -1}, {0, 1}};

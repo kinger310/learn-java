@@ -18,7 +18,7 @@ public class Offer04 {
     }
 
 
-    static class Solution {
+    private static class Solution {
         public boolean findNumberIn2DArray(int[][] matrix, int target) {
             int m = matrix.length;
             if (m <= 0) return false;

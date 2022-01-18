@@ -14,7 +14,7 @@ public class LT0015 {
         System.out.println(new Solution().threeSum(new int[]{-1, 0, 1, 2, -1, -4}));
     }
 
-    static class Solution {
+    private static class Solution {
         public List<List<Integer>> threeSum(int[] A) {
             List<List<Integer>> ans = new ArrayList<>();
             Arrays.sort(A);
