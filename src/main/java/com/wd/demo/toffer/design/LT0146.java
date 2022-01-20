@@ -17,7 +17,7 @@ public class LT0146 {
         obj.put(2,2);
         int param_1 = obj.get(1);
         obj.put(3,3);
-        System.out.println();
+        System.out.println(String.class);
     }
 
     private static class LRUCache {

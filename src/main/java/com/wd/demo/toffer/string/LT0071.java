@@ -9,8 +9,14 @@ import java.util.LinkedList;
  */
 public class LT0071 {
     public static void main(String[] args) {
+        // run();
         System.out.println(new Solution().simplifyPath("/a/./b/../../c/"));
     }
+
+    public void run() {
+        System.out.println();
+    }
+
 
     private static class Solution {
         public String simplifyPath(String path) {
