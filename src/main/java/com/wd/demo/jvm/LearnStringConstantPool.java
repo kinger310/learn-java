@@ -25,5 +25,15 @@ public class LearnStringConstantPool {
         System.out.println(System.identityHashCode(str3));
         System.out.println(System.identityHashCode(str4));
 
+        // 从字符串常量池中拿对象
+        String str44 = "abcd";
+        // 直接在堆内存空间创建一个新的对象。
+        String str5 = new String("abcd");
+        // intern的作用，如果字符串常量池已经包含一个equals的字符串，则直接返回常量池中的引用。
+        String str6 = new String("abcd").intern();
+        System.out.println(System.identityHashCode(str44));
+        System.out.println(System.identityHashCode(str5));
+        System.out.println(System.identityHashCode(str6));
+
     }
 }
