@@ -6,7 +6,7 @@ package com.wd.demo.toffer.search;
  * @Author: wangdi
  * @Date: 2022/1/13 0:02
  */
-public class LT33 {
+public class LT0033 {
     public static void main(String[] args) {
         System.out.println(new Solution().search(new int[]{4,5,6,7,0,1,2}, 0));
     }
